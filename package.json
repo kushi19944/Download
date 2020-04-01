@@ -14,8 +14,6 @@
     "copy-dir": "^1.2.0",
     "dotenv": "^8.2.0",
     "jimp": "^0.9.3",
-    "robotjs": "^0.6.0",
-    "screenshot-desktop": "^1.10.0",
     "selenium-webdriver": "4.0.0-alpha.5",
     "ts-rpa": "^0.1.13",
     "twitter": "^1.7.1"
