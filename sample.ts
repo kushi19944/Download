@@ -1,6 +1,6 @@
 import RPA from 'ts-rpa';
 
-(async () => {
+async function Start() {
   try {
     await RPA.WebBrowser.get('https://www.google.com/');
     const input = await RPA.WebBrowser.findElement('.gLFyf');
@@ -16,4 +16,6 @@ import RPA from 'ts-rpa';
   } finally {
     await RPA.WebBrowser.quit();
   }
-})();
+}
+
+Start();
