@@ -9,7 +9,7 @@ async function Start() {
   );
   await RPA.WebBrowser.mouseClick(element);
   await RPA.sleep(3000);
-  await RPA.WebBrowser.takeScreenshot();
+  //await RPA.WebBrowser.takeScreenshot();
   await RPA.WebBrowser.quit();
 }
 
